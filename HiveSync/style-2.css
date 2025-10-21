@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    padding: 0;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+    color: aliceblue;
+    background-color: rgb(91, 194, 235);
+}
+
+.logo {
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+header a {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+header a:hover {
+    background-color: rgb(64, 165, 206);
+    text-decoration: underline;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: px;
+    flex: 1;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.title {
+    margin-left: 353px;
+    align-items: start;
+    padding-top: 40px;
+    font-family: sans-serif;
+    font-weight: 200px;
+}
+
+.box {
+    border: #b1b1b1 solid 1px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    height: 650px;
+    width: 370px;
+    transition: 0.3s;
+}
+
+.box:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-color: rgb(78, 77, 77);
+}
+
+.box-title {
+    padding: 5px 8px;
+    background: #91DBF8;
+    background: linear-gradient(171deg, rgba(145, 219, 248, 1) 0%, rgba(40, 47, 237, 1) 100%);
+    height: 90px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.second {
+    background: #91DBF8;
+    background: linear-gradient(171deg, rgba(145, 219, 248, 1) 0%, rgba(169, 56, 235, 1) 100%);
+}
+
+.third {
+    background: #91DBF8;
+    background: linear-gradient(171deg, rgba(145, 219, 248, 1) 0%, rgba(235, 56, 122, 1) 100%);
+}
+
+.box-title h3 {
+    color: aliceblue;
+    padding: 10px;
+}
+
+.beneficios {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: black 1px solid;
+    border-color: #b1b1b1;
+    padding: 10px;
+}
+
+.first-text {
+    font-size: 90%;
+    margin-bottom: 5px;
+    color: #b1b1b1;
+}
+
+.button {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.button-second {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.button-pay:hover {
+    background-color: rgb(64, 165, 206);
+    cursor: pointer;
+}
+
+.button-pay {
+    background-color: #91DBF8;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 60px;
+    font-size: larger;
+    font-weight: bold;
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+footer {
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(91, 194, 235);
+    color: aliceblue;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: rgb(236, 240, 25);
+}
