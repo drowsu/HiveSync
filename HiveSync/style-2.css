@@ -82,6 +82,7 @@ main {
 .box:hover {
     cursor: pointer;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
     border-color: rgb(78, 77, 77);
 }
 
@@ -137,6 +138,7 @@ main {
 .button-pay:hover {
     background-color: rgb(64, 165, 206);
     cursor: pointer;
+    transform: scale(1.01);
 }
 
 .button-pay {
